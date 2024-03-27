@@ -1,0 +1,6 @@
+@TimeDogsApi_HostAddress = http://localhost:5068
+
+GET {{TimeDogsApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
