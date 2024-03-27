@@ -22,7 +22,7 @@ namespace TimeDogsApi.Controllers
             var cachorro = _cachorroRepository.GetCachorro(id);
             if (cachorro == null)
             {
-                return Ok("Nao existe esse cachorro");
+                return Ok("Nao existe esse cachorroo");
             }
             return Ok(cachorro);
         }
